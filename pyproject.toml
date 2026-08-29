@@ -9,7 +9,7 @@ description = "SecurePayload — Python AES encryption library for API payloads.
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "Proprietary" }
-authors = [{ name = "SecurePayload Team" }]
+authors = [{ name = "zfhassaan", email = "zfhassaan@gmail.com" }]
 keywords = [
     "aes",
     "aes-encryption",
@@ -43,9 +43,10 @@ dev = [
 ]
 
 [project.urls]
-Documentation = "https://github.com/securepayload/securepayload"
-Source = "https://github.com/securepayload/securepayload"
-Homepage = "https://github.com/securepayload/securepayload"
+Homepage = "https://github.com/zfhassaan/securepayload"
+Documentation = "https://github.com/zfhassaan/securepayload#readme"
+Source = "https://github.com/zfhassaan/securepayload"
+Issues = "https://github.com/zfhassaan/securepayload/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
