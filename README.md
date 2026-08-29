@@ -77,10 +77,17 @@ decrypted = securepayload.decrypt(encrypted)
 
 ## Installation
 
-### 1. Clone and create a virtual environment
+### From PyPI
 
 ```bash
-cd /path/to/securepayload
+pip install securepayload
+```
+
+### From source (development)
+
+```bash
+git clone https://github.com/zfhassaan/securepayload.git
+cd securepayload
 python -m venv env
 
 # Windows
@@ -88,27 +95,19 @@ env\Scripts\activate
 
 # macOS / Linux
 source env/bin/activate
-```
 
-### 2. Install
-
-```bash
 pip install -e ".[dev]"
 ```
 
-### 3. Configure your AES key
+### Configure your AES key
 
-```bash
-cp .env.example .env
-```
-
-Edit `.env`:
+Create a `.env` file (or set the variable in your environment):
 
 ```env
 SECURITY_AES_KEY=your-16-char-key
 ```
 
-> **Security:** `.env` is gitignored. Never commit production keys.
+> **Security:** Never commit production keys. Keep `.env` out of version control.
 
 ---
 
