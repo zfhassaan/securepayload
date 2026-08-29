@@ -271,9 +271,9 @@ pytest -v
 
 ---
 
-## API reference
+## Documentation
 
-Full documentation: [docs/API.md](docs/API.md)
+- [API reference](docs/API.md)
 
 ---
 
