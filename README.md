@@ -26,6 +26,12 @@
 </p>
 
 <p align="center">
+  <a href="https://pypi.org/project/securepayload/">
+    <img src="https://img.shields.io/pypi/v/securepayload?style=flat-square&logo=pypi&logoColor=white&label=PyPI" alt="PyPI" />
+  </a>
+  <a href="https://pypi.org/project/securepayload/">
+    <img src="https://img.shields.io/pepy/dt/securepayload?style=flat-square&label=downloads" alt="Downloads" />
+  </a>
   <img src="https://img.shields.io/badge/python-3.9+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.9+" />
   <img src="https://img.shields.io/badge/AES--128--ECB-14b8a6?style=flat-square" alt="AES-128-ECB" />
   <img src="https://img.shields.io/badge/license-Proprietary-64748b?style=flat-square" alt="License" />
