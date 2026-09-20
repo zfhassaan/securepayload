@@ -6,7 +6,7 @@
   <img src="assets/logo.png" alt="SecurePayload logo" width="50" />
 </p>
 
-<h1 align="center">SecurePayload</h1>
+<h1 align="center">Secure Payload</h1>
 
 <p align="center">
   <strong>Python AES encryption library for secure API payload handling</strong>
